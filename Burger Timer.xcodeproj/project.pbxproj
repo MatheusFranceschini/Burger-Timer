@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		761358B42D67DE7800A7A160 /* bell-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 761358B32D67DE7800A7A160 /* bell-sound.wav */; };
+		761358B52D67DE7800A7A160 /* alarm-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 761358B22D67DE7800A7A160 /* alarm-sound.wav */; };
 		765DE1232D610E4F00B80CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DE1222D610E4F00B80CC6 /* AppDelegate.swift */; };
 		765DE1252D610E4F00B80CC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DE1242D610E4F00B80CC6 /* SceneDelegate.swift */; };
 		765DE1272D610E4F00B80CC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DE1262D610E4F00B80CC6 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		761358B22D67DE7800A7A160 /* alarm-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "alarm-sound.wav"; sourceTree = "<group>"; };
+		761358B32D67DE7800A7A160 /* bell-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bell-sound.wav"; sourceTree = "<group>"; };
 		765DE11F2D610E4F00B80CC6 /* Burger Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Burger Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		765DE1222D610E4F00B80CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		765DE1242D610E4F00B80CC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		765DE1212D610E4F00B80CC6 /* Burger Timer */ = {
 			isa = PBXGroup;
 			children = (
+				761358B22D67DE7800A7A160 /* alarm-sound.wav */,
+				761358B32D67DE7800A7A160 /* bell-sound.wav */,
 				765DE1222D610E4F00B80CC6 /* AppDelegate.swift */,
 				765DE1242D610E4F00B80CC6 /* SceneDelegate.swift */,
 				765DE1262D610E4F00B80CC6 /* ViewController.swift */,
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				765DE12C2D610E5100B80CC6 /* Assets.xcassets in Resources */,
+				761358B42D67DE7800A7A160 /* bell-sound.wav in Resources */,
+				761358B52D67DE7800A7A160 /* alarm-sound.wav in Resources */,
 				765DE12F2D610E5100B80CC6 /* Base in Resources */,
 				765DE12A2D610E4F00B80CC6 /* Base in Resources */,
 			);
@@ -307,9 +315,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matheusfranceschini.Burger-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,9 +347,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matheusfranceschini.Burger-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
