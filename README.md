@@ -16,7 +16,7 @@ Conceitos de **Swift** utilizados
 ---
 
 ## 📷 Prévia do layout
-> *(Add screenshots here to showcase the app's interface and features.)*
+![Simulator Screenshot - iPhone 15 Pro - 2025-02-21 at 17 15 28](https://github.com/user-attachments/assets/fcf63e0d-b64e-48bb-a447-291141713f03)
 
 ---
 
