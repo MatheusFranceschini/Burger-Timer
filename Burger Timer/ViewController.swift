@@ -13,8 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var burgerImageView: UIImageView!
     @IBOutlet weak var cookingTimeProgressView: UIProgressView!
     
-    // 240 360 480
-    let burgerTime: [String: Int] = ["rare": 10, "medium": 20, "well-done": 30]
+    let burgerTime: [String: Int] = ["rare": 240, "medium": 360, "well-done": 480]
     
     var cookingPoint: String = ""
     var timer = Timer()
